@@ -575,7 +575,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_mtk.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/egl/libGLESv2_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_mtk.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hi556_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi556_mipi_raw_tuning.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
@@ -584,9 +583,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6765.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6765.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio.usb.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6765.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/dfps.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6765.so \
@@ -774,7 +771,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/libtqvalidate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtqvalidate.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/libufwriter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libufwriter.so \
@@ -842,7 +838,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hi1336_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi1336_mipi_raw_tuning.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hi556_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi556_mipi_raw_IdxMgr.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hi556_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi556_mipi_raw_tuning.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
@@ -852,9 +847,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6765.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6765.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio.usb.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6765.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/dfps.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6765.so \
@@ -1191,7 +1184,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libswscale.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswscale.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libtqvalidate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtqvalidate.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustonic_keybox_ca.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
