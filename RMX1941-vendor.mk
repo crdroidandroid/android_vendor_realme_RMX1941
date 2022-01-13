@@ -316,7 +316,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/realme/RMX1941/proprietary/vendor/etc/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/faceTpl0.rgb32 \
     vendor/realme/RMX1941/proprietary/vendor/etc/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/faceTpl1.rgb32 \
-    vendor/realme/RMX1941/proprietary/vendor/etc/fstab.mt6765:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6765 \
     vendor/realme/RMX1941/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/realme/RMX1941/proprietary/vendor/etc/fteh.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fteh.cfg \
     vendor/realme/RMX1941/proprietary/vendor/etc/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/gasryuv.model \
